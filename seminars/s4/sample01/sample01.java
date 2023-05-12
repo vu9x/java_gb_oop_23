@@ -1,4 +1,4 @@
-package seminars.s3.sample01;
+package seminars.s4.sample01;
 
 public class sample01 {
     public static void main(String[] args) {
