@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson7.observer;
+package seminars.s7.hw7.observer;
 
 public class Program {
 

@@ -1,4 +1,4 @@
-package ru.geekbrains.lesson7.observer;
+package seminars.s7.hw7.observer;
 
 import java.util.Random;
 
@@ -11,10 +11,10 @@ public class Company implements Vacancy{
     private Publisher jobAgency;
 
     public Company(String nameCompany, double maxSalary, Publisher jobAgency) {
-        this.nameCompany = nameCompany;
-        this.maxSalary = 3000 + (maxSalary - 3000) * random.nextDouble();
-        this.jobAgency = jobAgency;
         random = new Random();
+        this.nameCompany = nameCompany;
+        this.maxSalary = maxSalary;
+        this.jobAgency = jobAgency;
     }
 
     /**
